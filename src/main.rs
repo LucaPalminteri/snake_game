@@ -14,7 +14,7 @@ use drawing::to_gui_coord_u32;
 const BACK_COLOR: Color = [0.204, 0.286, 0.369, 1.0];
 
 fn main() {
-    let (width, height) = (20, 20);
+    let (width, height) = (72, 36);
 
     // Prepare window settings
     let mut window_settings = WindowSettings::new("Rust Snake",
