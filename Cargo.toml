@@ -1,10 +1,8 @@
 [package]
-name = "helloworld"
+name = "rust-snake"
 version = "0.1.0"
-edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["SLMT <sam123456777@gmail.com>"]
 
 [dependencies]
-rand = "0.3.18"
-piston_window = "0.74.0"
+piston_window = "0.123.0"
+rand = "0.8"
